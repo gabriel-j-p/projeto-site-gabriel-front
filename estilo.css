@@ -2,48 +2,36 @@
 	margin: 0;
 	padding: 0;
 }
-
 #topo{
-	height: 10px;
-	background: black;
-	font-size: 20px;
+	height: 100px;
+	background: red;
+	font-size: 30px;
 	font-weight: 100;
 	font-style: italic;
 }
-
-#topo{
-	height: 90px;
-	background: red;
-}
-
 #menu{
-	background-color: red(0,0,255,0.3);
+	background-color: white(0,0,255,0.3);
 }
-
 #menu ul, li{
 	display: inline-table;
-	padding: 20px 30px;
+	padding: 10px 60px;
+	background-color: white;
 	cursor: pointer;
 }
-
 #menu ul li a{
 	text-decoration: nome;
 	color: red;
 }
-
 #menu ul li:hover{
-	background-color: red (0,0,0,0.5);
+	background-color: (0,0,0,0.5);
 }
-
 #conteudo{
-	background-color: red;
+	background-color: black;
 	min-height: 70px;
 }
-
 #slider {
 	overflow: hidden;
 }
-
 #slider figure {
 	position: relative;
 	width: 500%;
@@ -51,12 +39,10 @@
 	left: 0;
 	animation: 20s slider infinite;
 }
-
 #slider figure img {
 	width: 20%;
 	float: left;
 }
-
 
 @keyframes slider {
 	0% {
@@ -90,13 +76,14 @@
 
 img{
 	max-width: 90%;
-	width: 15cm;
+	width: 10cm;
 	height: 12cm;
 	object-fit: contain;
 }
-
-#logo {
- width: 60px;
- height: 60px;
- margin-top: 10px;
+.slogan-image {
+    float: left;
+    height: 130px;
+    width: 130px;
+    margin: 30px;
+    border-radius: 50%;
 }
